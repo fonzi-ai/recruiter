@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fonzi-recruiter",
+  "version": "1.0.0",
+  "description": "Meet vetted engineers ready to interview. Find Candidates, place Interview Requests, and manage your Jobs and team on Fonzi.",
+  "author": {
+    "name": "Fonzi",
+    "email": "humans@fonzi.ai",
+    "url": "https://fonzi.ai"
+  },
+  "homepage": "https://recruiting.fonzi.ai/mcp/docs",
+  "repository": "https://github.com/kumospace/fonzi-recruiter",
+  "keywords": ["fonzi", "recruiting", "hiring", "engineering", "interviews"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fonzi Recruiter",
+        "shortDescription": "Meet vetted engineers ready to interview. Find Candidates, place Interview Requests, and manage your Jobs and team on Fonzi.",
+        "longDescription": "Fonzi gives startups vetted, ready-to-hire engineers. Candidates apply once and are ready to interview now. You review them and send Interview Requests with the salary attached upfront. Fonzi Recruiter brings your Company’s Fonzi account to your agent. Ask Fonzi to find Candidates for an open Job and review them with their profile links. Bookmark the ones you like, archive the rest, and place an Interview Request when you’re ready. Record how each interview went. Create and update Jobs, keep your Company Profile current, and manage who is on your team. Every action runs as you, with your role on the team. Viewers read; Recruiters and Admins can also write. Fonzi Recruiter is for hiring teams already working with Fonzi.",
+        "developerName": "Fonzi",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Hey Fonzi, find candidates for one of my open Jobs.",
+          "Show me backend engineers open to remote for the Platform role.",
+          "Create a Job: Senior ML engineer, remote US, $180k to $220k.",
+          "Who is on our Fonzi team?"
+        ],
+        "brandColor": "#2a8864",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png",
+        "websiteURL": "https://fonzi.ai",
+        "privacyPolicyURL": "https://fonzi.ai/privacy",
+        "termsOfServiceURL": "https://fonzi.ai/terms"
+      }
+    }
+  }
+}

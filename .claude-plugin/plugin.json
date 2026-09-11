@@ -1,0 +1,14 @@
+{
+  "name": "fonzi-recruiter",
+  "displayName": "Fonzi Recruiter",
+  "version": "1.0.0",
+  "description": "Meet vetted engineers ready to interview. Find Candidates, place Interview Requests, and manage your Jobs and team on Fonzi.",
+  "author": {
+    "name": "Fonzi",
+    "email": "humans@fonzi.ai",
+    "url": "https://fonzi.ai"
+  },
+  "homepage": "https://recruiting.fonzi.ai/mcp/docs",
+  "repository": "https://github.com/kumospace/fonzi-recruiter",
+  "keywords": ["fonzi", "recruiting", "hiring", "engineering", "interviews"]
+}
