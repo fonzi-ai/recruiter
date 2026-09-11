@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "fonzi-recruiter",
+  "name": "recruiter",
   "version": "1.0.0",
   "description": "Meet vetted engineers ready to interview. Find Candidates, place Interview Requests, and manage your Jobs and team on Fonzi.",
   "author": {

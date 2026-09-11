@@ -18,14 +18,19 @@ Engineers want [Fonzi Talent](https://github.com/kumospace/talent).
 **Claude Code**
 
 ```sh
-/plugin marketplace add kumospace/recruiter
-/plugin install fonzi-recruiter@fonzi-recruiter
+/plugin marketplace add kumospace/plugins
+/plugin install recruiter@fonzi
 ```
+
+The `fonzi` marketplace lives at
+[kumospace/plugins](https://github.com/kumospace/plugins) and lists both Fonzi
+plugins. Adding it once is enough for either.
 
 **Codex and ChatGPT**
 
 Fonzi Recruiter is submitted to the plugin directory. Until it is listed, add
-this repository as a marketplace from the Plugins tab.
+[kumospace/plugins](https://github.com/kumospace/plugins) as a marketplace from
+the Plugins tab.
 
 **Cursor**
 
@@ -47,9 +52,7 @@ separately; the skills tell the agent how.
 plugin.json                        Agent Plugins manifest (Codex, ChatGPT, Cursor)
 mcp.json                           Agent Plugins MCP config
 .claude-plugin/plugin.json         Claude Code manifest
-.claude-plugin/marketplace.json    Claude Code marketplace
 .mcp.json                          Claude Code MCP config
-.agents/plugins/marketplace.json   Codex and ChatGPT marketplace
 skills/<name>/SKILL.md             Shared by every host
 assets/                            Fonzi mark, source and 512px
 scripts/check.sh                   Validates every format above
@@ -58,12 +61,13 @@ scripts/check.sh                   Validates every format above
 Skills are the shared asset. Every host reads the same `SKILL.md` files. The
 manifest and MCP files exist in two dialects because Claude Code reads its own
 format and Codex, ChatGPT, and Cursor read the open
-[Agent Plugins](https://agent-plugins.org) standard.
+[Agent Plugins](https://agent-plugins.org) standard. Marketplace files live in
+[kumospace/plugins](https://github.com/kumospace/plugins), which points here.
 
 ## Contributing
 
-- The plugin name `fonzi-recruiter` is a permanent identifier across every
-  directory. Do not rename it.
+- The plugin id `recruiter` is a permanent identifier across every directory.
+  Do not rename it.
 - Keep both dialects of the manifest and MCP file in sync.
 - Bump `version` in both manifests when the plugin changes. Directory listings
   re-review on every release.

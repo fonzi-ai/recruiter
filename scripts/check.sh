@@ -2,7 +2,7 @@
 # Validates every host format this repo ships. Run from the repo root.
 set -eu
 
-echo "Claude marketplace and plugin manifest"
+echo "Claude plugin manifest"
 claude plugin validate .
 
 echo "JSON syntax"
