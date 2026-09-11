@@ -11,14 +11,14 @@ to use it. You need an active membership on a Company Team that works with
 Fonzi. Companies onboard through https://fonzi.ai/schedule-call. Sign-in is
 LinkedIn, Google, or a magic link. There is no password.
 
-Engineers want [Fonzi Talent](https://github.com/kumospace/fonzi-talent).
+Engineers want [Fonzi Talent](https://github.com/kumospace/talent).
 
 ## Install
 
 **Claude Code**
 
 ```sh
-/plugin marketplace add kumospace/fonzi-recruiter
+/plugin marketplace add kumospace/recruiter
 /plugin install fonzi-recruiter@fonzi-recruiter
 ```
 
@@ -35,7 +35,7 @@ this repository into `~/.cursor/plugins/local/`.
 **skills.sh**
 
 ```sh
-npx skills add kumospace/fonzi-recruiter
+npx skills add kumospace/recruiter
 ```
 
 Installs every skill in this repository. Connect the MCP server in your agent
