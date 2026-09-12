@@ -1,5 +1,5 @@
 ---
-name: fonzi-recruiter
+name: hiring-with-fonzi
 description: Use when a hiring team member wants to find Candidates for an open Job, review or bookmark Candidates, place an Interview Request with a salary, record how an interview went, create or update Jobs, keep the Company Profile current, or manage who is on their Fonzi team. Works through the Fonzi Recruiter MCP server.
 ---
 
